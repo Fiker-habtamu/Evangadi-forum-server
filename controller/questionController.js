@@ -44,7 +44,7 @@ const AllQuestions = async (req, res) => {
       });
     }
     res.status(200).json(response[0]);
-    console.log(response[0]);
+    // console.log(response[0]);
   } catch (error) {
     console.log(error);
     res.send(error);
